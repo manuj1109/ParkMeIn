@@ -135,8 +135,8 @@
    </section>
      
      <div style="background-image:url(/images/nmi.png);height: 400px ">
-       <h1 style="color: black; padding: 50px;font-family: sans-serif;"><br><br>Park me in is an initiative by the SVKM's NMIMS in order to simplify the parking managemnt services in the college premises.
-      This initiative was inaugrated by Mr.Sailesh Mahisker(Assosiate Dean NMIMS) on 31st of August 2020.
+       <h1 style="color: black; padding: 50px;font-family: sans-serif;"><br><br>Park me in is an initiative by the ABC University in order to simplify the parking managemnt services in the college premises.
+      This initiative was inaugrated by Mr.Sailesh Mahisker(Assosiate Dean ABC) on 31st of August 2020.
       </h1>
     </div> 
   
