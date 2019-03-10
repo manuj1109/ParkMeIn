@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+  margin: 0 ;
+  width: 97%
+}
+
+.header {
+    height: 100xx;
+    background-color: white;
+    width: 100%;
+}
+
+.spec {
+    font-size: 20px ;
+    font-family: Comic Sans moz-background-size;
+
+} 
+
+.header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header li a {
+    align-content: right;
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul {
+    margin: 0 auto;
+}
+
+.nav a:hover {
+    background-color: #e52364;
+    padding: 16px 24px 16px 24px;
+}
+
+.nav li {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url("/images/parking.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    color: black ;
+}
+
+.btn {
+    border:1px solid #30627E;
+    margin-left: 80px;
+}
+.supporting {
+    margin-bottom: 40px;
+}
+
+.supporting h1,p {
+    text-align: center;
+}
+.supporting a {
+    padding: 40px;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+    border-spacing: 10px;
+
+}
+.row1 {
+    display: flex;
+}
+
+
+.column1 {
+    flex: 33.33%;
+    padding: 5px
+    border-spacing: 10px;
+
+}
+
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: 180px;
+  height: 160px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+.row2 {
+    display: flex;
+}
+
+
+.column2 {
+    flex: 33.33%;
+    
+
+}
+
+.container12 {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.centered1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ .header21 {
+    list-style-type: none;
+    display: inline-block;{
+
+ } 
+
+ .container2{
+  margin: 0;
+  width: 100%;
+ }
+
+ .backimg{
+  height: 500px;
+    background-image: url("/images/nmi.png");
+    background-size:cover;
+    background-position: center;
+ }

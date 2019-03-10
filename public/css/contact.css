@@ -1,0 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+  margin: 0 ;
+}
+
+.header {
+    height: 100x;
+    background-color: #30627e;
+}
+
+.spec {
+    font-size: 20px ;
+    font-family: Comic Sans moz-background-size;
+
+} 
+
+.header li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul {
+    margin: 0 auto;
+}
+
+.nav a:hover {
+    background-color: #e52364;
+    padding: 16px 24px 16px 24px;
+}
+
+.nav li {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.jumbotron {
+    height:800px;
+    background-image: url("/images/back_vali.jpg"); 
+    background-size:cover;
+    background-position: center;
+}
+
+.jumbotron h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.jumbotron h3 {
+    font-size: 20px;
+    color: black;
+}
+
+.btn {
+    border:1px solid #30627E;
+    margin-left: 80px;
+}
+.supporting {
+    margin-bottom: 40px;
+}
+
+.supporting h1,p {
+    text-align: center;
+}
+.supporting a {
+    padding: 40px;
+}
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 5px;
+    border-spacing: 10px;
+
+}
