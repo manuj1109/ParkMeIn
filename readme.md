@@ -2,10 +2,9 @@
 **Description:-**
 Park Me In is a parking reservation app which helps you to locate the nearest parking spot availible and then reserve the slot
 
-**Softwares required:-**
+**Framework used:-**
 Laravel
-
-XAMPP
+installation- https://www.5balloons.info/how-to-install-laravel-5-5-with-xampp/
 
 **Screenshots:-**
 <img src="public/images/Screenshot%202019-03-10%20at%207.27.01%20PM.png">
